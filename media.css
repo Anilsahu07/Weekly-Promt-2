@@ -1,0 +1,149 @@
+@media(max-width:550px){
+    nav{
+        /* position: static; */
+        gap: 0;
+        padding: 0;
+    }
+
+    nav .logo{
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .page1{
+        height: 300px;
+    }
+
+    nav .logo h2{
+        font-size: 5vw;
+    }
+
+    .nav-right{
+        display: none;
+    }
+
+    .date{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .ticket{
+        padding: 20px 20px;
+        width: 350px;
+        height: 190px;
+    }
+
+    .ticket input{
+        width: 100%;
+    }
+
+    .pay button{
+        font-size: 10px;
+        padding: 5px 15px;
+        height: 35px;
+    }
+
+    main h1{
+        font-size: 10vw;
+        line-height: 9vw;
+    }
+
+    #orange{
+        font-size: 8vw;
+    }
+
+    #grey{
+        font-size: 8vw;
+    }
+
+    .page1 {
+        height: 20%;
+    }
+
+    .page2-head img{
+        width: 30px;
+    }
+
+    .page2-head h3{
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .page2-boxes{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .box1{
+        width: 90%;
+    }
+
+    .page3{
+        margin-top: 80px;
+        padding: 0 20px;
+    }
+
+    .page3-head p{
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .page3-head h3{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .page3-boxes{
+        margin-top: 30px;
+    }
+
+    .footer{
+        border-radius: 20px;
+        width: 90%;
+        padding: 30px 20px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.89);
+    }
+
+    .footer >h2{
+        font-size: 5vw;
+    }
+
+    .footer p{
+        font-size: 15px;
+    }
+
+    .upload{
+        text-align: center;
+        padding: 10px 10px;
+        margin-top: 20px;
+    }
+
+    .upload label{
+     font-size: 12px;
+    }
+
+    .upload input{
+        text-align: center;
+    }
+
+    .end-logo{
+        gap: 5px;
+    }
+
+    .end-logo i{
+        font-size: 30px;
+    }
+
+    .end-logo button{
+        margin-top: 20px;
+        height: 30px;
+    }
+}
